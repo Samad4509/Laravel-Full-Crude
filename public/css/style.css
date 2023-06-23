@@ -1,0 +1,86 @@
+.test li a:hover{
+    background-color: red;
+    color: white;
+}
+.dropdown-hover:hover .dropdown-menu{
+    display: block;
+}
+.h-500{
+    height: 500px;
+}
+.my-caption{
+    background-color: rgba(0,0,0,0.5);
+    bottom:100px
+}
+.text-justify{
+    text-align:justify!important;
+}
+.theme-bg{background-color: #FF4800;}
+.text-bg{color: #FF4800;}
+.nav-padding .nav-link{
+    padding: 25px 18px !important;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.nav-padding .nav-link:hover{
+    background-color: #FF4800;
+    color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.banner-section{
+    height: 500px;
+    background-image: url("../img/img2/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.bg-opacity-banner{
+    opacity: 93%;
+}
+.banner-content{
+    margin-top:50px;
+}
+.icon-text{
+    position: relative;
+    bottom: 16px;
+    margin-left:6px;
+}
+.fa-play:before {
+    content: "\f04b";
+}
+
+.waves {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    border-radius: 100%;
+    right: -50px;
+    bottom: -50px;
+    z-index: -1;
+    -webkit-animation: waves 3s ease-in-out infinite;
+    animation: waves 3s ease-in-out infinite;
+}
+
+.wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.bg-section{
+    background-color: #F2F2F4;
+}
